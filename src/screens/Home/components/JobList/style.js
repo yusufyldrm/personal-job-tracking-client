@@ -22,11 +22,9 @@ export const Table = styled.table`
   }
   @media (max-width: ${({ theme }) => theme.breakpoints.tablet}){
     font-size: 15px;
-    color: blue;
   }
   @media (max-width: ${({ theme }) => theme.breakpoints.mobile}){
     font-size: 12px;
-    color: red;
   }
   tr {
     /* border-bottom: 1px solid #ccc; */
